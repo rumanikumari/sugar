@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import Nav from "../components/layout/Nav";
-import Slider from  "../components/layout/Slider";
+import Slider from "../components/layout/Slider";
 
 export default class Layout extends React.Component {
   render() {
@@ -12,7 +12,6 @@ export default class Layout extends React.Component {
 
     return (
       <div>
-
         <Nav location={location}/>
         <Slider/>
         <div class="container" style={containerStyle}>

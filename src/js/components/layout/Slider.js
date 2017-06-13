@@ -9,27 +9,18 @@ export default class Slider extends React.Component {
       width:"10px"
     };
     return (
-      <Carousel showArrows={true} axis="horizontal" showThumbs={true} dynamicHeight={true} emulateTouch={true}>
+      <Carousel axis="vertical" showArrows={false} infiniteLoop autoPlay>
         <div>
-          <img src="../../../assets/pic1.png" style = {responsive_image}/>
-
+          <img src="../../../assets/pic1.jpeg" />
           <p className="legend">Legend 1</p>
         </div>
         <div>
-          <img src="../../../assets/pic2.png"/>
+          <img src="../../../assets/pic2.jpeg"/>
           <p className="legend">Legend 2</p>
         </div>
         <div>
-          <img src="../../../assets/pic3.png"/>
+          <img src="../../../assets/pic3.jpeg"/>
           <p className="legend">Legend 3</p>
-        </div>
-        <div>
-          <img src="../../../assets/pic4.png"/>
-          <p className="legend">Legend 4</p>
-        </div>
-        <div>
-          <img src="../../../assets/pic5.png"/>
-          <p className="legend">Legend 5</p>
         </div>
       </Carousel>
     );
