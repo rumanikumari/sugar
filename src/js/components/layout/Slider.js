@@ -5,18 +5,18 @@ export default class Slider extends React.Component {
 
   render() {
     return (
-      <Carousel autoPlay interval={1000} infiniteLoop>
+      <Carousel showThumbs={false}
+  showStatus={false}
+  useKeyboardArrows
+  className="presentation-mode">
         <div>
-          <img src="../../../assets/2.jpeg" />
-          <p className="legend">Legend 1</p>
+          <img src="../../../assets/2.png" />
         </div>
         <div>
-          <img src="../../../assets/3.jpeg" />
-          <p className="legend">Legend 1</p>
+          <img src="../../../assets/3.png" />
         </div>
         <div>
-          <img src="../../../assets/4.jpeg" />
-          <p className="legend">Legend 1</p>
+          <img src="../../../assets/4.png" />
         </div>
       </Carousel>
     );

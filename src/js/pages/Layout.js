@@ -5,17 +5,17 @@ import Nav from "../components/layout/Nav";
 export default class Layout extends React.Component {
   render() {
     const {location} = this.props;
-    const containerStyle = {
-      marginTop: "60px"
-    };
 
     return (
       <div>
+      <div>
         <Nav location={location}/>
-        <div class="container" style={containerStyle}>
-        {this.props.children}
-        </div>
       </div>
+      <div>
+            {this.props.children}
+      </div>
+      </div>
+
     );
   }
 }
