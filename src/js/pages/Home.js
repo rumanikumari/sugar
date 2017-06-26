@@ -12,10 +12,9 @@ export default class Home extends React.Component {
     };
 
     return (
-      <div>
-        <Slider/>
-   </div>
-
+        <div>
+          <Slider/>
+        </div>
     );
   }
 }
