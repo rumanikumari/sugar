@@ -1,6 +1,21 @@
-.image {
-   position: relative;
-   width: 100%; /* for IE 6 */
+div.image {
+   /*position: relative;
+   width: 100%;*/
+	 background-image: url('../3-side.png'); /* for IE 6 */
+	 background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+div.padding {
+	padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+}
+div.padding-small {
+	padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
 }
 
 h2 {
@@ -10,12 +25,12 @@ h2 {
    width: 100%;
 }
 .textOnImage {
-    position:absolute;
+    /*position:absolute;*/
     text-align:center;
-     top: 30%;
+     /*top: 30%;
 		 left: 0;
-     width: 100%;
-     color: #010100;
+     width: 100%;*/
+     color: #ffffff;
      font-family:courier;
      font-size: 160%;
 }
@@ -23,6 +38,7 @@ img.blur {
     -webkit-filter: blur(5px); /* Safari */
     filter: blur(1px);
     height: 100%;
+		max-width: 100% ;
     width: 100%;
     background-size:contain;
 }
