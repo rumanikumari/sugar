@@ -15,14 +15,19 @@ h2 {
      top: 30%;
 		 left: 0;
      width: 100%;
-     color: #010100;
+     color: #fffff7;
      font-family:courier;
      font-size: 160%;
 }
 img.blur {
-    -webkit-filter: blur(5px); /* Safari */
-    filter: blur(1px);
+    -webkit-filter: brightness(50%); /* Safari */
+    filter: brightness(50%);
     height: 100%;
     width: 100%;
     background-size:contain;
+}
+
+.slider-image-1 {
+	-webkit-filter: blur(70%); /* Safari */
+	filter: brightness(70%);
 }
