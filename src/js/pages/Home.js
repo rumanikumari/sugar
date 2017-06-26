@@ -12,7 +12,7 @@ export default class Home extends React.Component {
     };
 
     return (
-      <div>
+    <div>
         <Slider/>
         <div class="image">
             <img src="../../assets/sugar.png" alt="" class="blur"/>
@@ -21,7 +21,6 @@ export default class Home extends React.Component {
 
 
    </div>
-
     );
   }
 }
