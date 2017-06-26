@@ -1,0 +1,11 @@
+.carousel .slide .text-on-slider {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  margin-left: -45%;
+  width: 90%;
+  border-radius: 100px;
+  color: #ffffff;
+  font-size: 50px;
+  text-align: center;
+}
