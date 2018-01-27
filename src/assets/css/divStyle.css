@@ -5,6 +5,12 @@ div.image {
 	 background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+div.image1 {
+   /*position: relative;
+   width: 100%;*/
+	 background-image: url('../flower-1337017_1280.jpg'); /* for IE 6 */
+    background-repeat: repeat;
+}
 div.padding {
 	padding-top: 100px;
     padding-right: 30px;
